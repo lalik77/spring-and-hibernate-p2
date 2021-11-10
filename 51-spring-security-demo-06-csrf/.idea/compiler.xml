@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="49-spring-security-demo-04-bootstrap-login-form" />
         <module name="47-spring-security-demo-02-basic-security" />
+        <module name="51-spring-security-demo-06-csrf" />
         <module name="50-spring-security-demo-05-logout" />
         <module name="com.mami.luv2codes" />
         <module name="48-spring-security-demo-03-custom-login-form" />
