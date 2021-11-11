@@ -24,17 +24,29 @@
 
 <hr>
 
-<p>
-    <a href="${pageContext.request.contextPath}/leaders" >Leadership meeting</a>
-    (Only for manager peeps)
-</p>
+<security:authorize access="hasRole('MANAGER')">
+    <p>
+        <a href="${pageContext.request.contextPath}/leaders" >Leadership meeting</a>
+        (Only for manager peeps)
+    </p>
 
-<p>
-    <a href="${pageContext.request.contextPath}/systems" >System admins meeting</a>
-    (Only for admins peeps)
-</p>
+    <hr>
 
-<hr>
+</security:authorize>
+
+
+<security:authorize access="hasRole('ADMIN')">
+    <p>
+        <a href="${pageContext.request.contextPath}/systems" >System admins meeting</a>
+        (Only for admins peeps)
+    </p>
+
+    <hr>
+</security:authorize>
+
+
+
+
 
 <form:form action="${pageContext.request.contextPath}/logout" method="POST" class="form-horizontal">
 
