@@ -12,4 +12,20 @@ public class DemoAppController {
 
         return "home";
     }
+
+    @GetMapping("/leaders")
+    public String showLeaders() {
+        return "leaders";
+    }
+
+    @GetMapping("/systems")
+    public String showSystems() {
+        return "systems";
+    }
+
+    @GetMapping("/accessDenied")
+    public String showAccessDenied() {
+        return "accessDenied";
+    }
+
 }

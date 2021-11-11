@@ -22,6 +22,19 @@
     Role(s) : <security:authentication property="principal.authorities"/>
 </p>
 
+<hr>
+
+<p>
+    <a href="${pageContext.request.contextPath}/leaders" >Leadership meeting</a>
+    (Only for manager peeps)
+</p>
+
+<p>
+    <a href="${pageContext.request.contextPath}/systems" >System admins meeting</a>
+    (Only for admins peeps)
+</p>
+
+<hr>
 
 <form:form action="${pageContext.request.contextPath}/logout" method="POST" class="form-horizontal">
 
