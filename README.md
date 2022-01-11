@@ -1,9 +1,9 @@
- Spring & Hibernate for Beginners Part 1
+ # Spring & Hibernate for Beginners Part 2
 ### Course on Udemy
 
 [Spring & Hibernate for Beginners (includes Spring Boot)](https://www.udemy.com/course/spring-hibernate-tutorial/)
 
-![Shapka]()
+![Shapka](https://github.com/lalik77/spring-and-hibernate-p2/blob/master/img/Shapka_Udemy_Course.png)
 
 
 47. Spring Security - Getting Started 
